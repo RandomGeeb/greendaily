@@ -13,13 +13,12 @@ import {
 
 const Index = () => {
   return (
-    <View>
-      <Text>test</Text>
-      <Text>test</Text>
-      <Text>test</Text>
-      <Text>test</Text>
-      <Text>test</Text>
-      <Text>test</Text>
+    <View style={{ backgroundColor: "#f1f5f9" }}>
+      <View style={{ alignItems: "center", justifyContent: "center" }}>
+        <Text>Days to next bonus</Text>
+        <Text h1>9 Days</Text>
+        <Text>Current Streak: 371 days</Text>
+      </View>
       <Button
         label="Press"
         size={Button.sizes.medium}
