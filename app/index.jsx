@@ -1,6 +1,15 @@
 import { Link } from "expo-router";
 import React from "react";
-import { View, Text, Pressable } from "react-native";
+import {
+  Text,
+  View,
+  Assets,
+  Constants,
+  Button,
+  Colors,
+  Typography,
+  ButtonProps
+} from "react-native-ui-lib";
 
 const Index = () => {
   return (
@@ -11,6 +20,11 @@ const Index = () => {
       <Text>test</Text>
       <Text>test</Text>
       <Text>test</Text>
+      <Button
+        label="Press"
+        size={Button.sizes.medium}
+        backgroundColor={Colors.red30}
+      />
       <Link href="/page2">Link to page 2</Link>
     </View>
   );
